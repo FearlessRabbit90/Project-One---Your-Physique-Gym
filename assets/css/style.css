@@ -18,11 +18,39 @@ body {
 h1, h2 {
     font-family: Teko, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     color: white;
 }
 
 #logo {
     float: left;
-    font-size: 200%;
+    font-size: 400%;
+}
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 5px;
+}
+
+#menu, #logo {
+    line-height: 200px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid white;
+}
+
+.active {
+    border-bottom: 2px solid white;
 }
