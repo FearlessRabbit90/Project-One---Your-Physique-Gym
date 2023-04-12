@@ -10,7 +10,10 @@ body {
     font-family: Teko, sans-serif;
     font-weight: 500;
     color: white;
-    background-color:rgb(33, 34, 34);
+    background-image: url('../images/hero-image.jpg');
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+
 }
 
 /* heading and logo*/
@@ -54,3 +57,4 @@ h1, h2 {
 .active {
     border-bottom: 2px solid white;
 }
+
