@@ -9,4 +9,20 @@
 body {
     font-family: Teko, sans-serif;
     font-weight: 500;
+    color: white;
+    background-color:rgb(33, 34, 34);
+}
+
+/* heading and logo*/
+
+h1, h2 {
+    font-family: Teko, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
 }
